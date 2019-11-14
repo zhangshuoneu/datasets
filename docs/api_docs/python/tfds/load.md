@@ -83,7 +83,7 @@ of hundreds of GiB to disk. Refer to the `download` argument.
     <a href="../tfds/Split.md#TRAIN"><code>tfds.Split.TRAIN</code></a> and
     <a href="../tfds/Split.md#TEST"><code>tfds.Split.TEST</code></a>).
 *   <b>`data_dir`</b>: `str` (optional), directory to read/write data. Defaults
-    datasets are stored.
+    datasets are stored (so leave at default if you run on Forge).
 *   <b>`batch_size`</b>: `int`, if set, add a batch dimension to examples. Note
     that variable length features will be 0-padded. If `batch_size=-1`, will
     return the full dataset as `tf.Tensor`s.
